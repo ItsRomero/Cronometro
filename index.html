@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>Cronómetro de Carrera</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<h1>Cronómetro de Carrera</h1>
+
+<div id="display" class="cronometro">
+0.00 s
+</div>
+
+<button class="btn iniciar" onclick="iniciar()">Iniciar</button>
+<button class="btn detener" onclick="detener()">Detener</button>
+<button class="btn nueva" onclick="nuevaCarrera()">Nueva Carrera</button>
+
+<br><br>
+
+<input type="text" id="nombre" placeholder="Nombre del competidor">
+
+<button class="btn registrar" onclick="registrar()">
+Registrar Tiempo
+</button>
+
+<h2>Resultados</h2>
+
+<table>
+
+<thead>
+<tr>
+<th>Competidor</th>
+<th>Tiempo</th>
+<th>Diferencia</th>
+</tr>
+</thead>
+
+<tbody id="tabla"></tbody>
+
+</table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
