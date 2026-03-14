@@ -23,7 +23,7 @@ Aplicación web sencilla que permite registrar el tiempo de competidores en una 
 
 La aplicación está publicada en GitHub Pages:
 
-`https://tuusuario.github.io/cronometro`
+(https://itsromero.github.io/Cronometro/)
 
 ## 📂 Estructura del proyecto
 
